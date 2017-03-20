@@ -13,6 +13,7 @@
 		F6D624821E7FA9BD002ED822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D624801E7FA9BD002ED822 /* Main.storyboard */; };
 		F6D624841E7FA9BD002ED822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D624831E7FA9BD002ED822 /* Assets.xcassets */; };
 		F6D624871E7FA9BD002ED822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D624851E7FA9BD002ED822 /* LaunchScreen.storyboard */; };
+		F6D624911E7FAA00002ED822 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D624901E7FAA00002ED822 /* NSString+Hash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F6D624831E7FA9BD002ED822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D624861E7FA9BD002ED822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D624881E7FA9BD002ED822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D6248F1E7FAA00002ED822 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		F6D624901E7FAA00002ED822 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F6D624761E7FA9BD002ED822 /* HMACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F6D6248E1E7FA9EB002ED822 /* Security */,
 				F6D6247A1E7FA9BD002ED822 /* AppDelegate.h */,
 				F6D6247B1E7FA9BD002ED822 /* AppDelegate.m */,
 				F6D6247D1E7FA9BD002ED822 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				F6D624781E7FA9BD002ED822 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6D6248E1E7FA9EB002ED822 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				F6D6248F1E7FAA00002ED822 /* NSString+Hash.h */,
+				F6D624901E7FAA00002ED822 /* NSString+Hash.m */,
+			);
+			path = Security;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D6247F1E7FA9BD002ED822 /* ViewController.m in Sources */,
+				F6D624911E7FAA00002ED822 /* NSString+Hash.m in Sources */,
 				F6D6247C1E7FA9BD002ED822 /* AppDelegate.m in Sources */,
 				F6D624791E7FA9BD002ED822 /* main.m in Sources */,
 			);
